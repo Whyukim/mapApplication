@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="keyword" content="부동산, 직방, 집구하기, 원룸, 아파트" />
+    <meta name="description" content="직방 클론사이트" />
+    <meta name="author" content="hyukim" />
+    <title>직방 클론 사이트</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1024px)"
+      href="./styles/style_medium.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 798px)"
+      href="./styles/style_small.css"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <h1 class="logo">맛집지도</h1>
+        <h3>contact</h3>
+      </header>
+
+      <nav id="nav">
+        <h2>맛집지도 카테고리를 선택해보세요</h2>
+        <div class="category">
+          <span class="item">한식</span>
+          <span class="item">일식</span>
+          <span class="item">중식</span>
+          <span class="item">양식</span>
+          <span class="item">분식</span>
+          <span class="item">구이</span>
+          <span class="item">초밥</span>
+          <span class="item">기타</span>
+        </div>
+      </nav>
+
+      <main>
+        <div id="map"></div>
+      </main>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=df86cb941726e598bae8c0bb2fe85583"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

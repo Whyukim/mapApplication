@@ -1,0 +1,31 @@
+#container {
+  background-color: green;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+#nav {
+  display: flex;
+  flex-direction: column;
+}
+#nav h2 {
+}
+#nav .category {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+#nav .category .item {
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 1080px) {
+}
+@media (max-width: 720px) {
+}

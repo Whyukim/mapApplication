@@ -15,7 +15,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   height: 100vh;
-  background-color: blue;
 }
 
 h1,
@@ -40,11 +39,17 @@ h3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
+  margin-bottom: 10px;
 }
 #nav .category .item {
   font-family: "Jua", sans-serif;
   text-align: center;
   font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#nav .category .item:hover {
+  color: blue;
 }
 
 main {

@@ -1,3 +1,10 @@
 #container {
   background-color: red;
 }
+
+#nav .category {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin-bottom: 10px;
+}

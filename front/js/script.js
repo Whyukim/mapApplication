@@ -1,8 +1,9 @@
 let infowindowArray = [];
+let currentItem = 0;
 
 var map = new kakao.maps.Map(document.getElementById("map"), {
   center: new kakao.maps.LatLng(37.54, 126.96),
-  level: 8,
+  level: 12,
 });
 
 var clusterer = new kakao.maps.MarkerClusterer({
